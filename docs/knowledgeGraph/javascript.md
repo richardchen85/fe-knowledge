@@ -1,3 +1,3 @@
 # JavaScript 知识图谱
 
-![JavaScript 知识图谱](http://storage.360buyimg.com/ola-release/resources/fe/JavaScript.png)
+![JavaScript 知识图谱](https://misc.chenliqiang.cn/fe-knowledge/JavaScript.png)
