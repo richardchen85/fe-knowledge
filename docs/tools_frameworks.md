@@ -5,13 +5,14 @@
 | 工具库           | 推荐项                                                                                                                                                                                                                                                        |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | JS 基础工具      | [lodash](https://lodash.com/) &#124; [numeral](http://numeraljs.com/) 数字格式化                                                                                                                                                                              |
+| 日期工具         | [dayjs](https://github.com/iamkun/dayjs) &#124; [moment](https://github.com/moment/moment)                                                                                                                                                                    |
 | URL 处理         | [qs](https://github.com/ljharb/qs)                                                                                                                                                                                                                            |
-| markdown 编译器  | [marked](https://github.com/markedjs/marked)                                                                                                                                                                                                                  |
+| markdown 编译器  | [marked](https://github.com/markedjs/marked) &#124; [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) &#124; [markdown-to-jsx](https://github.com/probablyup/markdown-to-jsx)                                                        |
 | 粘贴板           | [zeroclipboard](https://github.com/zeroclipboard/zeroclipboard)                                                                                                                                                                                               |
 | excel 表格处理   | [sheetjs](https://github.com/SheetJS/sheetjs)                                                                                                                                                                                                                 |
 | 文件下载         | [download](https://github.com/rndme/download)                                                                                                                                                                                                                 |
 | HTTP 请求        | [axios](https://github.com/axios/axios)                                                                                                                                                                                                                       |
-| 验证             | [validator.js](https://github.com/validatorjs/validator.js)                                                                                                                                                                                                   |
+| 验证             | [validator.js](https://github.com/validatorjs/validator.js) &#124; [yup](https://github.com/jquense/yup)                                                                                                                                                      |
 | 强大的表格组件   | [handsontable](https://github.com/handsontable/handsontable)                                                                                                                                                                                                  |
 | 界面功能介绍工具 | [intro](https://github.com/usablica/intro.js)                                                                                                                                                                                                                 |
 | rn canvas        | [react-native-canvas](https://github.com/iddan/react-native-canvas)                                                                                                                                                                                           |
@@ -20,7 +21,7 @@
 | 动画             | [animate.css](https://github.com/daneden/animate.css) &#124; [pixi.js](https://github.com/pixijs/pixi.js)                                                                                                                                                     |
 | 模板引擎         | [art-template](https://github.com/aui/art-template) &#124; [handlebars](https://github.com/wycats/handlebars.js)                                                                                                                                              |
 | 富文本编辑器     | [CKEditor](https://ckeditor.com/) &#124; [UEditor](https://github.com/fex-team/ueditor) &#124; [slate](https://github.com/ianstormtaylor/slate)                                                                                                               |
-| 移动端适配       | [lib-flexible](https://github.com/amfe/lib-flexible) &#124;[解释文章](https://github.com/amfe/article/issues/17) &#124;[vw 的方案](https://www.w3cplus.com/css/vw-for-layout.html)                                                                            |
+| 移动端适配       | [lib-flexible](https://github.com/amfe/lib-flexible) &#124; [解释文章](https://github.com/amfe/article/issues/17) &#124; [vw 的方案](https://www.w3cplus.com/css/vw-for-layout.html)                                                                          |
 | 邮件内容         | [邮件基金会](https://foundation.zurb.com/emails.html)                                                                                                                                                                                                         |
 | PPT 制作         | [nodePPT](https://github.com/ksky521/nodeppt)                                                                                                                                                                                                                 |
 | 数据结构与算法   | [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)                                                                                                                                                                                    |
@@ -31,7 +32,7 @@
 | 技术栈 | 推荐项                                                                                                                                                                                                                                                                                   |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | React  | [ant](https://ant.design/index-cn) &#124; [ant-mobile](https://mobile.ant.design/index-cn) &#124; [ant-mobile-rn](https://github.com/ant-design/ant-design-mobile-rn) &#124; [element-react](https://github.com/elemefe/element-react) &#124; [material-ui](https://material-ui.com/zh/) |
-| Vue    | [elementUI](https://element.eleme.cn/#/zh-CN) [iView](https://github.com/iview/iview) &#124; [vuetifyjs](https://vuetifyjs.com/zh-Hans/) Material Design For Vue &#124; [vux](https://vux.li/) 移动端组件                                                                                |
+| Vue    | [elementUI](https://element.eleme.cn/#/zh-CN) &#124; [iView](https://github.com/iview/iview) &#124; [vuetifyjs](https://vuetifyjs.com/zh-Hans/) Material Design For Vue &#124; [vux](https://vux.li/) 移动端组件                                                                         |
 | jQuery | [bootstrap](https://getbootstrap.com/) &#124; [layer](https://github.com/sentsin/layer)                                                                                                                                                                                                  |
 
 ## 技术栈
@@ -45,11 +46,15 @@
   - [react-markdown](https://github.com/remarkjs/react-markdown)
   - [markdown-to-jsx](https://github.com/probablyup/markdown-to-jsx)
   - [react-virtualized](https://github.com/bvaughn/react-virtualized)
+  - [react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter)
   - 地图
     - [react-google-maps](https://github.com/tomchentw/react-google-maps)
     - [google-map-react](https://github.com/istarkov/google-map-react)
     - [react-amap 高德](https://github.com/ElemeFE/react-amap)
   - [react-image-crop](https://github.com/DominicTobias/react-image-crop) 图片裁切
+  - 表单库
+    - [formik](https://formik.org/) 推荐，可配合 yup 使用
+    - [react-final-form](https://final-form.org/react) 轻量，扩展性强
 
 - 移动开发
 
@@ -117,12 +122,12 @@
 
 - Web 开发框架
 
-  - [express](https://github.com/expressjs/express)
+  - [express](https://github.com/expressjs/express) star 最多
   - [koa](https://github.com/koajs/koa)
+  - [nest](https://github.com/nestjs/nest) 整体解决方案，typescript + decorator
   - [sails](https://github.com/balderdashy/sails) MVC 框架
   - [egg](https://github.com/eggjs/egg) 企业级框架
   - [thinkjs](https://github.com/thinkjs/thinkjs)
-  - [nest](https://github.com/nestjs/nest)
 
 - 博客工具
 
@@ -132,9 +137,12 @@
 
 ## 工程化
 
-| 类型     | 推荐项目                                                                                                                                                                                                                 |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 打包工具 | [webpack](https://webpack.js.org/) &#124; [rollup](https://github.com/rollup/rollup) &#124; [parcel](https://github.com/parcel-bundler/parcel)                                                                           |
-| 脚手架   | [yeoman](https://yeoman.io/)                                                                                                                                                                                             |
-| 构建工具 | [gulp](https://github.com/gulpjs/gulp) &#124; [grunt](https://github.com/gruntjs/grunt) &#124; [fis](http://fis.baidu.com/) &#124; [JDF](https://github.com/jdf2e/jdf) &#124; [athena](https://github.com/o2team/athena) |
-| 整体方案 | [create-react-app](https://create-react-app.dev/) &#124; [vue-cli](https://cli.vuejs.org/zh/guide/) &#124; [umi](https://umijs.org/zh/guide/#%E7%89%B9%E6%80%A7) &#124; [ice](https://github.com/alibaba/ice) 飞冰       |
+| 类型     | 推荐项目                                                                                                                                                                                                                                              |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 打包工具 | [webpack](https://webpack.js.org/) &#124; [rollup](https://github.com/rollup/rollup) &#124; [parcel](https://github.com/parcel-bundler/parcel)                                                                                                        |
+| 脚手架   | [yeoman](https://yeoman.io/)                                                                                                                                                                                                                          |
+| 构建工具 | [gulp](https://github.com/gulpjs/gulp) &#124; [grunt](https://github.com/gruntjs/grunt) &#124; [fis](http://fis.baidu.com/) &#124; [JDF](https://github.com/jdf2e/jdf) &#124; [athena](https://github.com/o2team/athena)                              |
+| 整体方案 | [create-react-app](https://create-react-app.dev/) &#124; [vite](https://vitejs.dev/) &#124; [vue-cli](https://cli.vuejs.org/zh/guide/) &#124; [umi](https://umijs.org/zh/guide/#%E7%89%B9%E6%80%A7) &#124; [ice](https://github.com/alibaba/ice) 飞冰 |
+| Api 管理 | [YApi](https://github.com/YMFE/yapi) &#124; [Rap2](https://github.com/thx/rap2-delos) &#124; [eolinker](https://www.eolinker.com/) &#124; [postman](https://www.getpostman.com/)                                                                      |
+| 代码风格 | [eslint](https://github.com/eslint/eslint) &#124; [prettier](https://github.com/prettier/prettier)                                                                                                                                                    |
+| git 辅助 | [husky](https://github.com/typicode/husky) &#124; [conventional-changelog](https://github.com/conventional-changelog) &#124; [lint-staged](https://github.com/okonet/lint-staged)                                                                     |
