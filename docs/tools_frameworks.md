@@ -26,6 +26,7 @@
 | PPT 制作         | [nodePPT](https://github.com/ksky521/nodeppt)                                                                                                                                                                                                                 |
 | 数据结构与算法   | [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)                                                                                                                                                                                    |
 | 设计模式相关     | [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)                                                                                                                                                                               |
+| JS 状态机        | [xstate](https://github.com/statelyai/xstate) &#124; [stent](https://github.com/krasimir/stent) &#124; [javascript-state-machine](https://github.com/jakesgordon/javascript-state-machine)                                                                    |
 
 ## UI 库
 
