@@ -40,6 +40,13 @@
 
 - React
 
+  - 状态管理工具
+    - [redux-toolkit](https://github.com/reduxjs/redux-toolkit)
+    - [Mobx](https://github.com/mobxjs/mobx)
+    - [Recoil](https://github.com/facebookexperimental/Recoil)
+    - [rematch](https://github.com/rematch/rematch)
+    - [dvsja](https://github.com/dvajs/dva)
+    - [modx](https://github.com/olajs/modx)
   - [react-copy-to-clipboard](https://github.com/nkbt/react-copy-to-clipboard) 复制到剪贴板
   - [react-codemirror2](https://github.com/scniro/react-codemirror2) 代码编辑器
   - [react-intl](https://github.com/yahoo/react-intl) 应用国际化
